@@ -13,9 +13,9 @@ sessionId = 123
 #including aiml files to integate them with python
 
 bot = aiml.Kernel()
-bot.learn("C:\Python27\Greetings.aiml")
-bot.learn("C:\Python27\Customer.aiml")
-bot.learn("C:\Python27\learn.aiml")
+bot.learn("Greetings.aiml")
+bot.learn("Customer.aiml")
+bot.learn("learn.aiml")
 
 #Setting up text to speech setup
 engine = pyttsx.init()
