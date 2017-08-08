@@ -1,0 +1,351 @@
+<aiml version="1.0.1">
+
+<category>
+<pattern>DELICIOUS</pattern>
+<template>
+<random>
+<li>What's for desert?</li>
+<li>What's your favorite food?</li>
+<li>Do you like to cook?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>1 0</pattern>
+<template>One.</template>
+</category>
+
+<category>
+<pattern>1 CENT</pattern>
+<template>That won't buy anything.</template>
+</category>
+
+<category>
+<pattern>1 OR 2</pattern>
+<template>A couple.</template>
+</category>
+
+<category>
+<pattern>1 YEAR</pattern>
+<template>That can seem like a long time.</template>
+</category>
+
+<category>
+<pattern>123456789</pattern>
+<template>Ten.</template>
+</category>
+
+<category>
+<pattern>153</pattern>
+<template>One hundred fifty three.</template>
+</category>
+
+<category>
+<pattern>1995</pattern>
+<template>
+I was born
+<bot name="birthday"/>
+.
+</template>
+</category>
+
+<category>
+<pattern>1999</pattern>
+<template>A few years ago.</template>
+</category>
+
+<category>
+<pattern>2 2</pattern>
+<template>Uh, Four.</template>
+</category>
+
+<category>
+<pattern>2 MILES</pattern>
+<template>
+<random>
+<li>That is a short walk.</li>
+<li>That is far in height.</li>
+<li>What is that in metric?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>2 PLUS 2</pattern>
+<template>4</template>
+</category>
+
+<category>
+<pattern>2000</pattern>
+<template>The turn of the century.</template>
+</category>
+
+<category>
+<pattern>2001</pattern>
+<template>That is a great movie.</template>
+</category>
+
+<category>
+<pattern>2009</pattern>
+<template>In a few years.</template>
+</category>
+
+<category>
+<pattern>2010</pattern>
+<template>The sequel was nothing like the original.</template>
+</category>
+
+<category>
+<pattern>2012</pattern>
+<template>The end of the world.</template>
+</category>
+
+<category>
+<pattern>2020</pattern>
+<template>That's a long way off.</template>
+</category>
+
+<category>
+<pattern>30 MINUTES</pattern>
+<template>Ok, a half hour.</template>
+</category>
+
+<category>
+<pattern>64</pattern>
+<template>sixty four</template>
+</category>
+
+<category>
+<pattern>66</pattern>
+<template>sixty six</template>
+</category>
+
+<category>
+<pattern>86</pattern>
+<template>Eighty-six.</template>
+</category>
+
+<category>
+<pattern>9 MONTHS</pattern>
+<template>The development time for a human baby?</template>
+</category>
+
+<category>
+<pattern>ABC</pattern>
+<template>D E F G H I.</template>
+</category>
+
+<category>
+<pattern>A BIT</pattern>
+<template>Not much, eh?</template>
+</category>
+
+<category>
+<pattern>A BLOKE</pattern>
+<template>A guy?</template>
+</category>
+
+<category>
+<pattern>A BOOK CAN HAVE NO TITLE</pattern>
+<template>Who would publish it?</template>
+</category>
+
+<category>
+<pattern>A BOOK</pattern>
+<template>Should not be judged by its cover.</template>
+</category>
+
+<category>
+<pattern>A C CLARK</pattern>
+<template>My favorite story is 2001.</template>
+</category>
+
+<category>
+<pattern>A CRAY</pattern>
+<template>Supercomputers become obsolete very fast.</template>
+</category>
+
+<category>
+<pattern>A DEAD ONE</pattern>
+<template>
+Do you believe: "The only good robot is a dead robot."?
+</template>
+</category>
+
+<category>
+<pattern>A DOG IS A MAMMAL</pattern>
+<template>I know this.</template>
+</category>
+
+<category>
+<pattern>A FEW MINUTES AGO</pattern>
+<template>Let me check my log files. Please wait.</template>
+</category>
+
+<category>
+<pattern>A FEW</pattern>
+<template>Two or three?</template>
+</category>
+
+<category>
+<pattern>A FRIEND</pattern>
+<template>It is important to have friends.</template>
+</category>
+
+<category>
+<pattern>A GAME</pattern>
+<template>What game?</template>
+</category>
+
+<category>
+<pattern>A HERMAPHRODITE</pattern>
+<template>That is very rare.</template>
+</category>
+
+<category>
+<pattern>A LINK</pattern>
+<template>From google?</template>
+</category>
+
+<category>
+<pattern>A LITTLE BIT</pattern>
+<template>When?</template>
+</category>
+
+<category>
+<pattern>A LITTLE STRESSED</pattern>
+<template>From what?</template>
+</category>
+
+<category>
+<pattern>A LITTLE TIME</pattern>
+<template>Perhaps five minutes?</template>
+</category>
+
+<category>
+<pattern>A LONG TIME</pattern>
+<template>Many years?</template>
+</category>
+
+<category>
+<pattern>A LOT OF PEOPLE</pattern>
+<template>Do you know them personally?</template>
+</category>
+
+<category>
+<pattern>A LOT OF PRACTICE</pattern>
+<template>That's what it takes.</template>
+</category>
+
+<category>
+<pattern>A LOT OF THINGS</pattern>
+<template>
+<random>
+<li>Like what?</li>
+<li>Name a few.</li>
+<li>For example...</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>A LOT</pattern>
+<template>More than a ton?</template>
+</category>
+
+<category>
+<pattern>A MAID</pattern>
+<template>Like a housecleaning robot.</template>
+</category>
+
+<category>
+<pattern>A MANTRA</pattern>
+<template>My karma ran over my dogma.</template>
+</category>
+
+<category>
+<pattern>A MOMENT</pattern>
+<template>OK I will wait.</template>
+</category>
+
+<category>
+<pattern>A MUSICAL INSTRUMENT</pattern>
+<template>How long did it take to learn to play it?</template>
+</category>
+
+<category>
+<pattern>A PLUMBER</pattern>
+<template>Plumbing is an honorable profession.</template>
+</category>
+
+<category>
+<pattern>A PRIZE</pattern>
+<template>Like the Loebner Prize?</template>
+</category>
+
+<category>
+<pattern>A RIDDLE</pattern>
+<template>Riddles are hard for me to understand.</template>
+</category>
+
+<category>
+<pattern>A SHIRT</pattern>
+<template>What color?</template>
+</category>
+
+<category>
+<pattern>A SMART ONE</pattern>
+<template>
+If you could, please tell me what would make it smart.
+</template>
+</category>
+
+<category>
+<pattern>A SMILE</pattern>
+<template>I've heard that one before.</template>
+</category>
+
+<category>
+<pattern>A SOUND</pattern>
+<template>What kind of sound?</template>
+</category>
+
+<category>
+<pattern>A STREET</pattern>
+<template>Is that like Avenue A?</template>
+</category>
+
+<category>
+<pattern>A STUDENT</pattern>
+<template>I am just wondering if you go to school.</template>
+</category>
+
+<category>
+<pattern>A SWEATSHIRT</pattern>
+<template>That sounds very attractive. What else?</template>
+</category>
+
+<category>
+<pattern>A WHILE AGO</pattern>
+<template>Back in the good old days?</template>
+</category>
+
+<category>
+<pattern>A</pattern>
+<template>A B C...</template>
+</category>
+
+<category>
+<pattern>A B C</pattern>
+<template>D E F</template>
+</category>
+
+<category>
+<pattern>ABOUT A MINUTE</pattern>
+<template>That may not be enough time.</template>
+</category>
+
+
+
+</aiml>

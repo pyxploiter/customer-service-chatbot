@@ -1,0 +1,363 @@
+<aiml version="1.0.1">
+
+<category>
+	<pattern>WHAT CAN YOU DO</pattern>
+	<template>what do you want to know about? Balance Inquiry? Bundle Inquiry? Current Package? Internet Packages? Other information?</template>
+</category>
+
+<category> 
+	<pattern> WHAT IS MY BALANCE</pattern>
+	<template> Your balance is <get name="balance"/></template>
+</category>
+
+<category>
+	<pattern>_ BALANCE</pattern>
+	<template>
+		<srai>BALANCE INQUIRY</srai>
+	</template>
+</category>
+
+
+<category>
+	<pattern>BALANCE</pattern>
+	<template><srai>BALANCE INQUIRY</srai></template>
+</category>
+
+<category>
+	<pattern>_ BALANCE *</pattern>
+	<template><srai>BALANCE INQUIRY</srai></template>
+</category>
+
+<category>
+	<pattern> BALANCE *</pattern>
+	<template><srai>BALANCE INQUIRY</srai></template>
+</category>
+
+<category> 
+	<pattern> BALANCE INQUIRY</pattern>
+	<template> Your balance is <get name="balance"/></template>
+</category>
+
+<category>
+	<pattern> BUNDLE INQUIRY </pattern>
+	<template>You can enjoy following bundles:  (1)Daily Packages(2)Weekly Packages(3)Monthly Packages</template>
+</category>
+
+<category>
+	<pattern>_ BUNDLE</pattern>
+	<template><srai>BUNDLE INQUIRY</srai></template>
+</category>
+
+<category>
+	<pattern>_ BUNDLES</pattern>
+	<template><srai>BUNDLE INQUIRY</srai></template>
+</category>
+
+<category>
+	<pattern>BUNDLE</pattern>
+	<template><srai>BUNDLE INQUIRY</srai></template>
+</category>
+
+<category>
+	<pattern>BUNDLES</pattern>
+	<template><srai>BUNDLE INQUIRY</srai></template>
+</category>
+
+<category>
+	<pattern>_ BUNDLE *</pattern>
+	<template><srai>BUNDLE INQUIRY</srai></template>
+</category>
+
+<category>
+	<pattern>_ BUNDLES *</pattern>
+	<template><srai>BUNDLE INQUIRY</srai></template>
+</category>
+
+
+<category>
+	<pattern> BUNDLE *</pattern>
+	<template><srai>BUNDLE INQUIRY</srai></template>
+</category>
+
+<category>
+	<pattern> BUNDLES *</pattern>
+	<template><srai>BUNDLE INQUIRY</srai></template>
+</category>
+
+<category>
+	<pattern>DAILY PACKAGES</pattern>
+	<template>(1)Day package  (2)Night package </template>
+</category>
+
+<category>
+	<pattern>_ DAILY PACKAGES</pattern>
+	<template><srai>DAILY PACKAGES</srai></template>
+</category>
+
+<category>
+	<pattern>_ DAILY PACKAGES *</pattern>
+	<template><srai>DAILY PACKAGES</srai></template>
+</category>
+
+<category>
+	<pattern>DAILY PACKAGES *</pattern>
+	<template><srai>DAILY PACKAGES</srai></template>
+</category>
+
+<category>
+	<pattern>DAILY PACKAGE</pattern>
+	<template><srai>DAILY PACKAGES</srai></template>
+</category>
+
+<category>
+	<pattern>DAILY PACKAGE *</pattern>
+	<template><srai>DAILY PACKAGES</srai></template>
+</category>
+
+<category>
+	<pattern>_ DAILY PACKAGE *</pattern>
+	<template><srai>DAILY PACKAGES</srai></template>
+</category>
+
+<category>
+	<pattern>_ DAILY PACKAGE</pattern>
+	<template><srai>DAILY PACKAGES</srai></template>
+</category>
+
+<category>
+	<pattern>DAY PACKAGE</pattern>
+	<template>100 minutes 100 SMS and 100 Mbs from 8 am to 4 pm. </template>
+</category>
+
+
+<category>
+	<pattern>_ DAY PACKAGE</pattern>
+	<template><srai>DAY PACKAGE</srai></template>
+</category>
+
+<category>
+	<pattern>_ DAY PACKAGE *</pattern>
+	<template><srai>DAY PACKAGE</srai></template>
+</category>
+
+<category>
+	<pattern>DAY PACKAGE *</pattern>
+	<template><srai>DAY PACKAGE</srai></template>
+</category>
+
+<category>
+	<pattern>DAY PACKAGE</pattern>
+	<template>100 minutes 100 SMS and 100 Mbs from 8 am to 4 pm.CHARGES: 10 Rupees Do you want to activate it?</template>
+</category>
+
+<category>
+	<pattern>YES</pattern>
+	<template>You have subscribed this Package.</template>
+</category>
+
+<category>
+	<pattern>NO</pattern>
+	<template>Have a look into other packages I hope you will like them.<srai>BUNDLE INQUIRY</srai></template>
+</category>
+
+<category>
+	<pattern>_ DAY PACKAGE</pattern>
+	<template><srai>DAY PACKAGE</srai></template>
+</category>
+
+<category>
+	<pattern>_ DAY PACKAGE *</pattern>
+	<template><srai>DAY PACKAGE</srai></template>
+</category>
+
+<category>
+	<pattern>DAY PACKAGE *</pattern>
+	<template>
+	<srai>DAY PACKAGE</srai></template>
+</category>
+
+
+<category>
+	<pattern>NIGHT PACKAGE</pattern>
+	<template>150 minutes 150 SMS and 150 Mbs from 8 am to 4 pm.CHARGES: 15 Rupees Do you want to activate it?</template>
+</category>
+
+
+<category>
+	<pattern>_ NIGHT PACKAGE</pattern>
+	<template><srai>NIGHT PACKAGE</srai></template>
+</category>
+
+<category>
+	<pattern>_ NIGHT PACKAGE *</pattern>
+	<template>
+	<srai>NIGHT PACKAGE</srai></template>
+</category>
+
+<category>
+	<pattern>NIGHT PACKAGE *</pattern>
+	<template><srai>NIGHT PACKAGE</srai></template>
+</category>
+
+---------
+
+<category>
+	<pattern>MONTHLY PACKAGE</pattern>
+	<template>1000 minutes 1000 SMS and 1000 Mbs Internet.CHARGES: 500 Rupees Do you want to activate it?</template>
+</category>
+
+
+<category>
+	<pattern>_ MONTHLY PACKAGE</pattern>
+	<template><srai>MONTHLY PACKAGE</srai></template>
+</category>
+
+<category>
+	<pattern>_ MONTHLY PACKAGE *</pattern>
+	<template><srai>MONTHLY PACKAGE</srai></template>
+</category>
+
+<category>
+	<pattern>MONTHLY PACKAGE *</pattern>
+	<template><srai>MONTHLY PACKAGE</srai></template>
+</category>
+
+---------------
+<category>
+	<pattern>WEEKLY PACKAGE</pattern>
+	<template>500 minutes 500 SMS and 500 Mbs Intenet.CHARGES: 250 Rupees Do you want to activate it?</template>
+</category>
+
+
+<category>
+	<pattern>_ WEEKLY PACKAGE</pattern>
+	<template><srai>WEEKLY PACKAGE</srai></template>
+</category>
+
+<category>
+	<pattern>_ WEEKLY PACKAGE *</pattern>
+	<template><srai>WEEKLY PACKAGE</srai></template>
+</category>
+
+<category>
+	<pattern>WEEKLY PACKAGE *</pattern>
+	<template><srai>WEEKLY PACKAGE</srai></template>
+</category>
+
+<category>
+	<pattern>CURRENT PACKAGE</pattern>
+	<template>Your current package is <get name="Current"></get> Package.</template>
+</category>
+
+<category>
+	<pattern>_ CURRENT PACKAGE</pattern>
+	<template><srai>CURRENT PACKAGE</srai></template>
+</category>
+
+<category>
+	<pattern>_ CURRENT PACKAGE *</pattern>
+	<template><srai>CURRENT PACKAGE</srai></template>
+</category>
+
+<category>
+	<pattern>CURRENT PACKAGE *</pattern>
+	<template><srai>CURRENT PACKAGE</srai></template>
+</category>
+
+<category>
+	<pattern>INTERNET SETTING</pattern>
+	<template>The internet settings has been sent to your Phone Number. Please install these settings in your handset.</template>	
+</category>
+
+<category>
+	<pattern>_ INTERNET SETTING</pattern>
+	<template><srai>INTERNET SETTING</srai> </template>
+</category>
+
+<category>
+	<pattern>_ INTERNET SETTINGS</pattern>
+	<template><srai>INTERNET SETTING</srai> </template>
+</category>
+
+<category>
+	<pattern>_ INTERNET SETTING *</pattern>
+	<template><srai>INTERNET SETTING</srai> </template>
+</category>
+
+<category>
+	<pattern>INTERNET SETTING *</pattern>
+	<template><srai>INTERNET SETTING</srai> </template>
+</category>
+
+<category>
+	<pattern>_ INTERNET SETTINGS *</pattern>
+	<template><srai>INTERNET SETTING</srai> </template>
+</category>
+
+<category>
+	<pattern>INTERNET SETTINGS *</pattern>
+	<template><srai>INTERNET SETTING</srai> </template>
+</category>
+	
+<category>
+	<pattern>CALL ISSUE</pattern>
+	<template>We'll forward your complaint to the relevant department. Is there anything esle I can do for you?</template>
+</category>
+
+<category>
+	<pattern>_ CALL ISSUE</pattern>
+	<template><srai>CALL ISSUE</srai></template>
+</category>
+
+<category>
+	<pattern>_ CALL ISSUE *</pattern>
+	<template><srai>CALL ISSUE</srai></template>
+</category>
+
+<category>
+	<pattern>CALL ISSUE *</pattern>
+	<template><srai>CALL ISSUE</srai></template>
+</category>
+
+<category>
+	<pattern>DEACTIVATE PACKAGES</pattern>
+	<template>All packages on your sim has been deactivated.What else I can do for you?</template>
+</category>
+
+<category>
+	<pattern>_ DEACTIVATE PACKAGES</pattern>
+	<template><srai>DEACTIVATE PACKAGES</srai></template>
+</category>
+
+<category>
+	<pattern>_ DEACTIVATE PACKAGES *</pattern>
+	<template><srai>DEACTIVATE PACKAGES</srai></template>
+</category>
+
+<category>
+	<pattern>DEACTIVATE PACKAGES *</pattern>
+	<template><srai>DEACTIVATE PACKAGES</srai></template>
+</category>
+
+<category>
+	<pattern>PHONE NUMBER</pattern>
+	<template>Dial *1234# to know your Phone NUmber. What else I can do for you?</template>
+</category>
+
+<category>
+	<pattern>_ PHONE NUMBER</pattern>
+	<template><srai>PHONE NUMBER</srai></template>
+</category>
+
+<category>
+	<pattern>_ PHONE NUMBER *</pattern>
+	<template><srai>PHONE NUMBER</srai></template>
+</category>
+
+<category>
+	<pattern>PHONE NUMBER *</pattern>
+	<template><srai>PHONE NUMBER</srai></template>
+</category>
+
+
+</aiml>

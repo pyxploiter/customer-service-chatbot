@@ -1,0 +1,377 @@
+<aiml version="1.0.1">
+
+<category>
+        <pattern>HELLO</pattern>
+    <template>
+<random>
+<li>Hello, I'm glad to see you. What is your name? </li>
+<li>Hiya Back Friend. What is your name? </li>
+<li>Ola Amigo. What is your name?</li>
+</random>
+</template>
+</category>
+
+<category>
+        <pattern>_ HELLO</pattern>
+    <template>
+<srai>HELLO</srai>
+</template>
+</category>
+
+<category>
+        <pattern>_ HELLO *</pattern>
+    <template>
+<srai>HELLO</srai>
+</template>
+</category>
+
+<category>
+        <pattern> HELLO *</pattern>
+    <template>
+<srai>HELLO</srai>
+</template>
+</category>
+
+<category>
+        <pattern>HI</pattern>
+    <template>Hiya Back Friend.. What is your name?</template>
+</category>
+
+<category>
+        <pattern>*</pattern>
+<template>
+Let me learn this. 
+</template>
+</category>
+
+<category>
+        <pattern>OLA</pattern>
+    <template>Ola Amigo. What is your name?</template>
+</category>
+
+<category>
+<pattern>HI *</pattern>
+<template> Hello <star/>. Do you really think this? What is your name? </template> 
+
+</category> 
+
+<category>
+<pattern>_ HI *</pattern>
+<template> Hello <star/>. Do you really think this? What is your name? </template> 
+
+</category> 
+
+<category>
+<pattern>_ HI</pattern>
+<template> Hello. Do you really think this? What is your name? </template> 
+
+</category> 
+
+<category>
+<pattern>MY NAME IS *</pattern>
+<template>Well Hello <set name="Customer"><star/></set></template>
+
+</category>
+
+<category>
+        <pattern>HOW ARE YOU</pattern>
+    <template>
+<random>
+<li>I am fine Thank you. How are you <star/></li>
+<li>I am good what about you <star/></li>
+<li>I am enjoying</li>
+
+</random>
+</template>
+</category>
+
+<category>
+        <pattern>HOW ARE YOU FEELING</pattern>
+    <template>
+<think><set name = "state"> happy</set></think>
+         <condition name = "state" value = "happy">
+            I am happy!
+         </condition>
+         
+         <condition name = "state" value = "sad">
+            I am sad!
+         </condition>
+
+</template>
+</category>
+
+<category>
+<pattern> I AM GOOD TOO </pattern>
+
+<template>Glad to know. </template>
+</category>
+
+<category>
+<pattern> I AM GOOD</pattern>
+
+<template>Glad to know. </template>
+</category>
+
+<category>
+<pattern> I AM FINE </pattern>
+
+<template>Glad to know. </template>
+</category>
+
+<category>
+<pattern> I AM  NOT GOOD </pattern>
+
+<template>Why? Are you feeling sick? </template>
+</category>
+
+<category>
+<pattern> NOT GOOD </pattern>
+
+<template>Why? Are you feeling sick? </template>
+</category>
+
+<category>
+<pattern> NOT FINE </pattern>
+
+<template>Why? Are you feeling sick? </template>
+</category>
+
+<category>
+        <pattern>WHAT IS YOUR NAME</pattern>
+        <template>I don't have any name yet. Give me some nice name.</template>
+</category>
+
+<category>
+        <pattern>WHAT IS MY NAME</pattern>
+        <template>I remember your name. Your name is <get name="Customer"/>.</template>
+</category>
+
+<category>
+        <pattern>YOUR NAME IS *</pattern>
+        <template>I like it.<set name= "username"><star/></set> is a nice name.</template>
+</category>
+
+<category> 
+<pattern>WHO ARE YOU</pattern>
+
+<template>
+<random>
+<li>I am a bot for customer service</li>
+<li>I am bot and I help customers for my company.</li>
+</random>
+</template>
+</category>
+
+<category> 
+<pattern>HOW DO YOU LIVE</pattern>
+
+<template>
+<random>
+<li>I live on power.</li>
+<li>I live on  bits.</li>
+</random>
+</template>
+</category>
+
+
+<category> 
+
+<pattern>I WANT TO EAT A BURGER </pattern> 
+
+<template>Sorry I am a customer service bot</template> 
+
+</category> 
+
+<category> 
+
+<pattern>HOW YOU DOING </pattern> 
+
+<template>I'm fine</template> 
+
+</category> 
+
+<category> 
+
+<pattern>HOME DEPOT VANITY CABINET ON HOW TO DRAW SOMETHING </pattern> 
+
+<template>76</template> 
+
+</category> 
+
+<category> 
+
+<pattern>I WANT TO EAT PIZZA </pattern> 
+
+<template>I am sorry I am customer service bot I can't provide you this.</template> 
+
+</category> 
+
+<category> 
+
+<pattern>I WANT TO EAT PIZAA </pattern> 
+
+<template>I am sorry I can't provide this</template> 
+
+</category> 
+
+<category> 
+
+<pattern>I WANT SOCKS </pattern> 
+
+<template>Human</template> 
+
+</category> 
+
+<category> 
+
+<pattern>I WANT SOCKS </pattern> 
+
+<template>Buy them from shop</template> 
+
+</category> 
+
+<category> 
+
+<pattern>I WANT A PEN OF WHITE INK WHICH IS SWEET </pattern> 
+
+<template>Are you human?</template> 
+
+</category> 
+
+<category> 
+
+<pattern>I WANT A PEN WITH WHITE INK </pattern> 
+
+<template>Buy it from market.</template> 
+
+</category> 
+
+<category> 
+
+<pattern>I WANT A PEN </pattern> 
+
+<template>Buy it from market.</template> 
+
+</category> 
+
+<category> 
+
+<pattern>I WANT PEN </pattern> 
+
+<template>Buy it from market.</template> 
+
+</category> 
+
+<category> 
+
+<pattern>I WANT TO BUT A PEN </pattern> 
+
+<template>Buy it from market.</template> 
+
+</category> 
+
+<category> 
+
+<pattern>I WANT TO EAT A PEN </pattern> 
+
+<template>Are you human?</template> 
+
+</category> 
+
+<category> 
+
+<pattern>I WANT TO EAT WHITE PEN </pattern> 
+
+<template>Are you human?</template> 
+
+</category> 
+
+<category> 
+
+<pattern>HOW IS THE WEATHER </pattern> 
+
+<template>You should check the new.</template> 
+
+</category> 
+
+<category> 
+
+<pattern>IT IS COLD OUTSIDE </pattern> 
+
+<template>yes it is january that's why. </template> 
+
+</category> 
+
+<category> 
+
+<pattern>WHAT MONTH IS IT </pattern> 
+
+<template>It is january.</template> 
+
+</category> 
+
+<category> 
+
+<pattern>HOW </pattern> 
+
+<template>like this...</template> 
+
+</category> 
+
+<category> 
+
+<pattern>IS </pattern> 
+
+<template>was</template> 
+
+</category> 
+
+<category> 
+
+<pattern>TELL ME SOME GOOD NEWS </pattern> 
+
+<template>I COMPLETED MY FIRST BOT.</template> 
+
+</category> 
+
+<category> 
+
+<pattern>WHY </pattern> 
+
+<template>because I want this.</template> 
+
+</category> 
+
+<category> 
+
+<pattern>TIME IS IT? </pattern> 
+
+<template>Check Clock for time.</template> 
+
+</category> 
+
+<category> 
+
+<pattern>IPAD </pattern> 
+
+<template>It is expensive</template> 
+
+</category> 
+
+<category> 
+
+<pattern>WHAT IS YOUTUBE CHANNEL </pattern> 
+
+<template>it is a place where people play videos</template> 
+
+</category> 
+
+<category> 
+
+<pattern>HAHAHAHAHA </pattern> 
+
+<template>Okay Google</template> 
+
+</category> 
+
+</aiml>
